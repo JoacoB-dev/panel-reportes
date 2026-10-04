@@ -1,0 +1,20 @@
+body { background: #f1f5f9; }
+
+.barra-lateral {
+    width: 230px;
+    min-height: 100vh;
+    position: sticky;
+    top: 0;
+    background: #0f172a;
+}
+.barra-lateral .nav-link.active { background: #2563eb; }
+.barra-lateral .nav-link:hover { color: #fff !important; }
+
+.contenido { min-width: 0; }
+.contenido.cargando { opacity: .6; transition: opacity .2s; }
+
+.card { border: 0; }
+.kpi .valor { font-size: 1.6rem; font-weight: 700; margin: .25rem 0; }
+
+.grafico { position: relative; height: 300px; }
+.grafico-chico { height: 260px; }
